@@ -20,7 +20,7 @@ def main():
     large_string = generate_large_string(size_mb)
     while True:
         logging.error(large_string)
-        time.sleep(10)
+        time.sleep(1)
 
 if __name__ == "__main__":
     main()
